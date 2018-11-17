@@ -2,7 +2,7 @@
 The configuration specified in this document is for the TC4nano which uses
 one SSR for heater control (no fan control) and logs BT only.
 
-##CONTENTS:
+### CONTENTS:
 Configuring Artiasn
 - General Config
 - PID Config
@@ -26,13 +26,13 @@ The provided firmware has been tested with Artisan versions up to 1.5.
 If you wish to update the firmware the instructions are provided below.
 
 
-*******************************************************************************
 
 ## CONFIGURING ARTISAN
 
 Leave defaults unless specified below. Text input is listed in " ".
 
 ### General Config
+
 ---------------------------------
 Config > Device...
 
@@ -64,16 +64,19 @@ Note: after clicking "OK" in the Device menu the Port menu will automatically
 pop up. Leave this as default for now. When roasting ensure the port reflects
 the TC4's Arduino.
 OK
+
 ---------------------------------
 
 Config>Sampling Interval 
 set to "1.0" seconds
 OK
+
 ---------------------------------
 
 Config>Curves... > RoR tab
 check the boxes for curves and LCDs you want to view and check projection
 OK
+
 ---------------------------------
 
 Config>Events
