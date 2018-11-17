@@ -33,9 +33,8 @@ Leave defaults unless specified below. Text input is listed in " ".
 
 ### General Config
 
----------------------------------
 
-Config > Device...
+#### Config > Device...
 
 ET/BT tab:
 - select TC4 radio button
@@ -61,26 +60,19 @@ Device 2:
 - Label2 - "AT"
 - OK
 
-Note: after clicking "OK" in the Device menu the Port menu will automatically
-pop up. Leave this as default for now. When roasting ensure the port reflects
-the TC4's Arduino.
+Note: after clicking "OK" in the Device menu the Port menu will automatically pop up. Leave this as default for now. When roasting ensure the port reflects the TC4's Arduino.
 - OK
 
----------------------------------
-
-Config>Sampling Interval 
+#### Config > Sampling Interval 
 - set to "1.0" seconds
 - OK
 
----------------------------------
-
-Config>Curves... > RoR tab
+#### Config > Curves... > RoR tab
 - check the boxes for curves and LCDs you want to view and check projection
 - OK
 
----------------------------------
 
-Config>Events
+#### Config > Events
 
 Config tab:
 - Annotations - check
@@ -113,12 +105,9 @@ Sliders tab:
 - Burner - uncheck
 - OK
 
----------------------------------
-Config>Temperature
+#### Config > Temperature
 - Select Fahrenheit or Celcius mode
 - OK
-
----------------------------------
 
 
 ### PID Config
@@ -147,7 +136,7 @@ OK
 
 ### Creating a Profile
 
-Tools > Designer
+#### Tools > Designer
 
 Adjust the circles to the desired locations, add or delete points as necessary.
 
@@ -159,14 +148,14 @@ Hit the RESET button, then save the profile to your Profiles directory.
 
 ### Loading a Background Profile
 
-Roast > Background
+#### Roast > Background
 
-Show - check
-BT - check
-All others - uncheck
-Align - CHARGE
-Load - select a saved profile from your profile directory
-OK
+- Show - check
+- BT - check
+- All others - uncheck
+- Align - CHARGE
+- Load - select a saved profile from your profile directory
+- OK
 
 
 
@@ -217,6 +206,7 @@ Copy and paste these commands into terminal one by one
 
 First check to see if homebrew is installed
 
+
 _______________________________________________________________________________
 brew -v
 _______________________________________________________________________________
@@ -224,12 +214,14 @@ _______________________________________________________________________________
 If it is not installed (ie you get an output that is something other than
 the version of homebrew) run the following commmand... this takes a while
 
+
 _______________________________________________________________________________
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 _______________________________________________________________________________
 
 Then run the following two commands to install the CH34x drivers needed
 to use the generic arduino nano
+
 
 _______________________________________________________________________________
 brew tap mengbo/ch340g-ch34g-ch34x-mac-os-x-driver https://github.com/mengbo/ch340g-ch34g-ch34x-mac-os-x-driver
@@ -242,6 +234,7 @@ _______________________________________________________________________________
 Now restart your computer, and see if Artisan recognizes the arduino.
 Or you can enter the following in the terminal and look for an output
 that is not an error.
+
 
 _______________________________________________________________________________
 ls /dev/cu.usb* /dev/cu.wch*
