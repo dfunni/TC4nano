@@ -34,88 +34,91 @@ Leave defaults unless specified below. Text input is listed in " ".
 ### General Config
 
 ---------------------------------
+
 Config > Device...
 
-> ET/BT tab:
-select TC4 radio button
-ET Channel - 1
-BT Channel - 2
-AT Channel - None
-PID Firmware - unchecked
-Control - checked
-Curves: ET - unchecked BT - checked
-LCDs: ET - unchecked BT - checked Swap - unchecked
+ET/BT tab:
+- select TC4 radio button
+- ET Channel - 1
+- BT Channel - 2
+- AT Channel - None
+- PID Firmware - unchecked
+- Control - checked
+- Curves: ET - unchecked BT - checked
+- LCDs: ET - unchecked BT - checked Swap - unchecked
 
->Extra Devices tab:
-Add two devices
+Extra Devices tab:
+- Add two devices
 
 Device 1: 
-Device - ArduinoTC4 56 
-Label1 - "Heater" 
-Label2 - "Fan"
+- Device - ArduinoTC4 56 
+- Label1 - "Heater" 
+- Label2 - "Fan"
 
 Device 2:
-Device - ArduinoTC4 78
-Label1 - "SV" 
-Label2 - "AT"
-OK
+- Device - ArduinoTC4 78
+- Label1 - "SV" 
+- Label2 - "AT"
+- OK
 
 Note: after clicking "OK" in the Device menu the Port menu will automatically
 pop up. Leave this as default for now. When roasting ensure the port reflects
 the TC4's Arduino.
-OK
+- OK
 
 ---------------------------------
 
 Config>Sampling Interval 
-set to "1.0" seconds
-OK
+- set to "1.0" seconds
+- OK
 
 ---------------------------------
 
 Config>Curves... > RoR tab
-check the boxes for curves and LCDs you want to view and check projection
-OK
+- check the boxes for curves and LCDs you want to view and check projection
+- OK
 
 ---------------------------------
 
 Config>Events
 
-> Config tab:
-Annotations - check
-1 - check - "Fan"
-2 - check - "Heater"
-3 - uncheck
-4 - uncheck
-Auto CHARGE/Auto Drop/Mark MET/Show Time Guide - uncheck
+Config tab:
+- Annotations - check
+- 1 - check - "Fan"
+- 2 - check - "Heater"
+- 3 - uncheck
+- 4 - uncheck
+- Auto CHARGE/Auto Drop/Mark MET/Show Time Guide - uncheck
 
->Buttons tab
-add one button
-Label - "Fan Off"
-Type - Fan
-Value - 0
-Action - Serial Command
-Documentation - "IO3;0"
-Visibility - ON
+Buttons tab
+- add one button
+- Label - "Fan Off"
+- Type - Fan
+- Value - 0
+- Action - Serial Command
+- Documentation - "IO3;0"
+- Visibility - ON
 
->Sliders tab
-In the heater row set the following to:
-Heater - check
-Action - Serial Command
-Command - "OT1;{}"
-Offset - 0.0
-Factor - 1
-Min - 0
-Max - 100
+Sliders tab
+- In the heater row set the following to:
+- Heater - check
+- Action - Serial Command
+- Command - "OT1;{}"
+- Offset - 0.0
+- Factor - 1
+- Min - 0
+- Max - 100
 
-Fan - uncheck
-Damper - uncheck
-Burner - uncheck
-OK
+- Fan - uncheck
+- Damper - uncheck
+- Burner - uncheck
+- OK
+
 ---------------------------------
 Config>Temperature
-Select Fahrenheit or Celcius mode
-OK
+- Select Fahrenheit or Celcius mode
+- OK
+
 ---------------------------------
 
 
