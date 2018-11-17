@@ -2,7 +2,7 @@
 The configuration specified in this document is for the TC4nano which uses
 one SSR for heater control (no fan control) and logs BT only.
 
-CONTENTS:
+##CONTENTS:
 Configuring Artiasn
 - General Config
 - PID Config
@@ -28,12 +28,11 @@ If you wish to update the firmware the instructions are provided below.
 
 *******************************************************************************
 
-CONFIGURING ARTISAN
+## CONFIGURING ARTISAN
 
 Leave defaults unless specified below. Text input is listed in " ".
 
-===============================================================================
-General Config
+### General Config
 ---------------------------------
 Config > Device...
 
@@ -47,7 +46,7 @@ Control - checked
 Curves: ET - unchecked BT - checked
 LCDs: ET - unchecked BT - checked Swap - unchecked
 
-> Extra Devices tab:
+>Extra Devices tab:
 Add two devices
 
 Device 1: 
@@ -67,17 +66,17 @@ the TC4's Arduino.
 OK
 ---------------------------------
 
-Config > Sampling Interval 
+Config>Sampling Interval 
 set to "1.0" seconds
 OK
 ---------------------------------
 
-Config > Curves... > RoR tab
+Config>Curves... > RoR tab
 check the boxes for curves and LCDs you want to view and check projection
 OK
 ---------------------------------
 
-Config > Events
+Config>Events
 
 > Config tab:
 Annotations - check
@@ -87,7 +86,7 @@ Annotations - check
 4 - uncheck
 Auto CHARGE/Auto Drop/Mark MET/Show Time Guide - uncheck
 
-> Buttons tab
+>Buttons tab
 add one button
 Label - "Fan Off"
 Type - Fan
@@ -96,7 +95,7 @@ Action - Serial Command
 Documentation - "IO3;0"
 Visibility - ON
 
-> Sliders tab
+>Sliders tab
 In the heater row set the following to:
 Heater - check
 Action - Serial Command
@@ -111,13 +110,13 @@ Damper - uncheck
 Burner - uncheck
 OK
 ---------------------------------
-Config > Temperature
+Config>Temperature
 Select Fahrenheit or Celcius mode
 OK
 ---------------------------------
 
-===============================================================================
-PID Config
+
+### PID Config
 
 Click the blue CONTROL button (ensure Control is checked under Config > Device)
 
@@ -140,8 +139,8 @@ Lookahead - 10s (adjust as necessary)
 Start PID on CHARGE - check
 OK
 
-===============================================================================
-Creating a Profile
+
+### Creating a Profile
 
 Tools > Designer
 
@@ -152,8 +151,8 @@ loaded onto the graph.
 
 Hit the RESET button, then save the profile to your Profiles directory.
 
-===============================================================================
-Loading a Background Profile
+
+### Loading a Background Profile
 
 Roast > Background
 
@@ -165,9 +164,8 @@ Load - select a saved profile from your profile directory
 OK
 
 
-*******************************************************************************
 
-UPDATING TC4 FIRMWARE
+## UPDATING TC4 FIRMWARE
 
 The latest version of the TC4 firmware can be found on github. Version 
 6.6 zip file can be found at:
@@ -203,12 +201,11 @@ at the bottom of the IDE and "Done Uploading" will display when it completes
 sucessfully.
 
 
-*******************************************************************************
 
-TROUBLESHOOTING:
+## TROUBLESHOOTING:
 
-===============================================================================
-Generic Arduino Not Recognized
+
+### Generic Arduino Not Recognized
 
 Copy and paste these commands into terminal one by one 
 (to open terminal press command+space and type terminal, then hit enter):
@@ -244,5 +241,3 @@ that is not an error.
 _______________________________________________________________________________
 ls /dev/cu.usb* /dev/cu.wch*
 _______________________________________________________________________________
-
-===============================================================================
