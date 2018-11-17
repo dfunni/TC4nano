@@ -4,13 +4,8 @@ one SSR for heater control (no fan control) and logs BT only.
 
 ### CONTENTS:
 #### Configuring Artiasn
-- General Config
-- PID Config
-- Creating a Profile
-- Loading a Background Profile
 #### Updating TC4 Firmware
 #### Troubleshooting
-- Generic Arduino Nano Not Recognized
 
 The TC4nano is configured for the Artisan roaster-scope software. The latest 
 version can be found at:	
