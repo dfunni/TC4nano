@@ -114,24 +114,28 @@ Sliders tab:
 
 Click the blue CONTROL button (ensure Control is checked under Config > Device)
 
-For Poppery I a good starting point is:
-kp = 2.2; ki = 0.08; kd = 20
+Recommended starting PID parameters:
 
-For Poppery II start with:
-kp = 1.3; ki = 0.06; kd = 4.5
+|            | kp  | ki   | kd  |
+|------------|-----|------|-----|
+| Poppery I  | 2.2 | 0.08 | 20  |
+| Poppery II | 1.3 | 0.06 | 4.5 |
 
-Source - BT
+
+
+
+- Source - BT
 
 Target:
-Positive - Heater
-Negative - None
+- Positive - Heater
+- Negative - None
 
 Set Value:
-Mode - Background (ensure background profile is loaded prior to roasting)
-Lookahead - 10s (adjust as necessary)
+- Mode - Background (ensure background profile is loaded prior to roasting)
+- Lookahead - 10s (adjust as necessary)
 
-Start PID on CHARGE - check
-OK
+- Start PID on CHARGE - check
+- OK
 
 
 ### Creating a Profile
