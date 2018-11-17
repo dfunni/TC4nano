@@ -3,13 +3,13 @@ The configuration specified in this document is for the TC4nano which uses
 one SSR for heater control (no fan control) and logs BT only.
 
 ### CONTENTS:
-Configuring Artiasn
+#### Configuring Artiasn
 - General Config
 - PID Config
 - Creating a Profile
 - Loading a Background Profile
-Updating TC4 Firmware
-Troubleshooting
+#### Updating TC4 Firmware
+#### Troubleshooting
 - Generic Arduino Nano Not Recognized
 
 The TC4nano is configured for the Artisan roaster-scope software. The latest 
@@ -90,7 +90,7 @@ Config tab:
 - 4 - uncheck
 - Auto CHARGE/Auto Drop/Mark MET/Show Time Guide - uncheck
 
-Buttons tab
+Buttons tab:
 - add one button
 - Label - "Fan Off"
 - Type - Fan
@@ -99,7 +99,7 @@ Buttons tab
 - Documentation - "IO3;0"
 - Visibility - ON
 
-Sliders tab
+Sliders tab:
 - In the heater row set the following to:
 - Heater - check
 - Action - Serial Command
@@ -108,7 +108,6 @@ Sliders tab
 - Factor - 1
 - Min - 0
 - Max - 100
-
 - Fan - uncheck
 - Damper - uncheck
 - Burner - uncheck
