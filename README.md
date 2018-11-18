@@ -9,7 +9,7 @@ one SSR for heater control (no fan control) and logs BT only.
 
 The TC4nano is configured for the Artisan roaster-scope software. The latest 
 version can be found at:	
-https://artisan-roasterscope.blogspot.com
+https://github.com/artisan-roaster-scope
 
 Artisan installation instructions:
 https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.md
