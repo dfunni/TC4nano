@@ -18,7 +18,7 @@ https://github.com/artisan-roaster-scope
 Artisan installation instructions:
 https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.md
 
-
+![TC4nano](TC4nano/hardware/TC4nano.jpg)
 
 ## CONFIGURING ARTISAN
 
