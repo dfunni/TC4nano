@@ -51,18 +51,14 @@ Device 2:
 - Device - ArduinoTC4 78
 - Label1 - "SV" 
 - Label2 - "AT"
-- OK
 
-Note: after clicking "OK" in the Device menu the Port menu will automatically pop up. Leave this as default for now. When roasting ensure the port reflects the TC4's Arduino.
-- OK
+Note: after clicking "OK" in the Device menu the Port menu will automatically pop up. Leave this as default for now. Prior to roasting ensure the port reflects the correct Arduino.
 
 #### Config > Sampling Interval 
 - set to "1.0" seconds
-- OK
 
 #### Config > Curves... > RoR tab
 - check the boxes for curves and LCDs you want to view and check projection
-- OK
 
 
 #### Config > Events
@@ -96,11 +92,9 @@ Sliders tab:
 - Fan - uncheck
 - Damper - uncheck
 - Burner - uncheck
-- OK
 
 #### Config > Temperature
 - Select Fahrenheit or Celcius mode
-- OK
 
 
 ### PID Config
@@ -128,7 +122,6 @@ Set Value:
 - Lookahead - 10s (adjust as necessary)
 
 - Start PID on CHARGE - check
-- OK
 
 
 ### Creating a Profile
@@ -152,7 +145,6 @@ Hit the RESET button, then save the profile to your Profiles directory.
 - All others - uncheck
 - Align - CHARGE
 - Load - select a saved profile from your profile directory
-- OK
 
 
 
