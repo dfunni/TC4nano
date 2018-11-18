@@ -22,9 +22,9 @@ https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.m
 
 
 ### General Config
-The configuration below assumes use with Poppery I roaster and no fan control through Artisan. Fan control can be added by connecting a DC motor driver (for Poppery II or other DC fan) or second SSR (for AC fan) to the IO3 jumper. If fan control is desired see setup described in the following video: https://www.youtube.com/watch?v=0-Co-pXF2NM. 
+The configuration below assumes use with Poppery I roaster and no fan control through Artisan. 
 
-Leave defaults unless specified below. Text input is listed in " ".
+For Poppery II or other DC fan systems, fan control can be added by connecting a DC motor driver to the IO3 jumper. For AC fan control, zero cross detection circuitry and an additional random fire SSR are required as well as reflashing the Arduino firmware with different configuration settings. For Artisan configuration with fan control see the setup described here: https://www.youtube.com/watch?v=0-Co-pXF2NM. 
 
 #### Config > Device...
 
