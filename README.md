@@ -2,9 +2,9 @@
 The TC4nano is an Arduino Nano shield for termperature logging (up to 4 thermocouples) and PID control of a resistive heating element for use in home coffee roasting (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
 
 ### CONTENTS:
-#### Configuring Artiasn
-#### Updating TC4 Firmware
-#### Troubleshooting
+1. Configuring Artiasn
+2. Updating TC4 Firmware
+3. Troubleshooting
 
 The TC4nano is pre-configured for the Artisan roaster-scope software using the aArtisanQ_PID_6_2_3 by Jim Gallt and Brad
 Collins provided under BSD Liscense.
@@ -18,7 +18,7 @@ https://github.com/artisan-roaster-scope
 Artisan installation instructions:
 https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.md
 
-## CONFIGURING ARTISAN
+## 1. CONFIGURING ARTISAN
 
 
 ### General Config
@@ -106,9 +106,6 @@ Recommended starting PID parameters:
 | Poppery I  | 2.2 | 0.08 | 20  |
 | Poppery II | 1.3 | 0.06 | 4.5 |
 
-
-
-
 - Source - BT
 
 Target:
@@ -146,7 +143,7 @@ Hit the RESET button, then save the profile to your Profiles directory.
 
 
 
-## UPDATING TC4 FIRMWARE
+## 2. UPDATING TC4 FIRMWARE
 
 The latest version of the TC4 firmware can be found on github. Version 
 6.6 zip file can be found at:
@@ -178,7 +175,7 @@ sucessfully.
 
 
 
-## TROUBLESHOOTING:
+## 3. TROUBLESHOOTING:
 
 
 ### Generic Arduino Not Recognized (macOS)
