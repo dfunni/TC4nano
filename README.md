@@ -184,9 +184,9 @@ even though only one thermocouple will be used.
 When all appropriate changes are made, connect the arduino to the computer and
 select the following options from the menu bar:
 
-Tools > Board > Arduino Nano
-Tools > Processor > ATMega328P (Old Bootloader)
-Tools > Port > /dev/cu.YOUR_ARDUINO
+- Tools > Board > Arduino Nano
+- Tools > Processor > ATMega328P (Old Bootloader)
+- Tools > Port > /dev/cu.YOUR_ARDUINO
 
 Finally, flash the Adduino Nano by clicking the upload (forward arrow) button 
 in the Arduino IDE. A display of the progress will appear in the command prompt
