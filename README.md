@@ -169,18 +169,13 @@ aArtisanQ_PID folder as seperate tabs in the IDE.
 Select the user.h tab and to choose the options you wish to enable by 
 uncommenting/commenting the options in this file.
 
-- Under "Base configuration" ensure CONFIG_PWM is selected since the 
+- Under "Base configuration" ensure CONFIG_PWM is selected as the 
 TC4nano does not include a ZCD.
 
 - Under "Tempreature Unit" comment out CELCIUS if Fahrenhiet is desired.
 
-- Leave all 4 "TC_TYPEx typeK" enabled under "Thermocouple Input Options"
-even though only one thermocouple will be used.
-
-- Ensure Baud rate of BAUD 115200
-
-When all appropriate changes are made, connect the arduino to the computer and
-select the following options from the menu bar:
+When all appropriate changes are made, connect the Arduino to the computer and
+select the following settings from the menu bar:
 
 - Tools > Board > Arduino Nano
 - Tools > Processor > ATMega328P (Old Bootloader)
