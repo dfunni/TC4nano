@@ -215,7 +215,7 @@ brew cask install wch-ch34x-usb-serial-driver
 _______________________________________________________________________________
 
 Now restart your computer, and see if Artisan recognizes the arduino.
-Or you can enter the following in the terminal and look for an output
+Alternately, you can enter the following in the terminal and look for an output
 that is not an error.
 
 _______________________________________________________________________________
