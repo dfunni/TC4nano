@@ -30,8 +30,8 @@ For Poppery II or other DC fan systems, fan control can be added by connecting a
 
 ET/BT tab:
 - select TC4 radio button
-- ET Channel - 1
-- BT Channel - 2
+- ET Channel - 2
+- BT Channel - 1
 - AT Channel - None
 - PID Firmware - unchecked
 - Control - checked
