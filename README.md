@@ -45,7 +45,6 @@ Extra Devices tab:
 Device 1: 
 - Device - ArduinoTC4 56 
 - Label1 - "Heater" 
-- Label2 - "Fan"
 
 Device 2:
 - Device - ArduinoTC4 78
@@ -65,19 +64,19 @@ Note: after clicking "OK" in the Device menu the Port menu will automatically po
 
 Config tab:
 - Annotations - check
-- 1 - check - "Fan"
-- 2 - check - "Heater"
-- 3 - uncheck
-- 4 - uncheck
+- 1 - uncheck - Fan
+- 2 - check - Heater
+- 3 - uncheck - Damper
+- 4 - uncheck - Burner
 - Auto CHARGE/Auto Drop/Mark MET/Show Time Guide - uncheck
 
 Buttons tab:
 - add one button
-- Label - "Fan Off"
-- Type - Fan
+- Label - "Heater Off"
+- Type - Heater
 - Value - 0
 - Action - Serial Command
-- Documentation - "IO3;0"
+- Documentation - "OT1;0"
 - Visibility - ON
 
 Sliders tab:
