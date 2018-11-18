@@ -1,5 +1,5 @@
 # TC4nano
-The TC4nano an Arduino Nano shield for termperature logging and PID control of a resistive heating element for use in home coffee roasting (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
+The TC4nano an Arduino Nano shield for termperature logging (up to 4 thermocouples) and PID control of a resistive heating element for use in home coffee roasting (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
 
 The configuration below assumes use with Poppery I popcorn popper and no desired fan control through Artisan. Fan control can be achieved by connecting a DC motor driver (for Poppery II DC fan) or second SSR (for AC fan) to the IO3 jumper. If fan control is desired see setup described in the following video: https://www.youtube.com/watch?v=0-Co-pXF2NM. 
 
