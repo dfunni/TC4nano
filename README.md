@@ -186,7 +186,7 @@ sucessfully.
 ### Generic Arduino Not Recognized (macOS)
 
 Copy and paste these commands into terminal one by one 
-(to open terminal press command+space and type terminal, then hit enter):
+(to open terminal press command+space and type 'terminal', then hit enter):
 
 First check to see if homebrew is installed
 
