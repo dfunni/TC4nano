@@ -183,7 +183,7 @@ sucessfully.
 ## TROUBLESHOOTING:
 
 
-### Generic Arduino Not Recognized
+### Generic Arduino Not Recognized (macOS)
 
 Copy and paste these commands into terminal one by one 
 (to open terminal press command+space and type terminal, then hit enter):
