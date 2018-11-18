@@ -9,10 +9,10 @@ The TC4nano is an Arduino Nano shield for termperature logging (up to 4 thermoco
 The TC4nano is pre-configured for the Artisan roaster-scope software using the aArtisanQ_PID_6_2_3 by Jim Gallt and Brad
 Collins provided under BSD Liscense.
 
-The latest version of the TC4 firmware can be found at:
+TC4 firmware can be found at:
 https://github.com/greencardigan/TC4-shield
 
-The latest version of Artisan can be found at:	
+Artisan can be found at:	
 https://github.com/artisan-roaster-scope
 
 Artisan installation instructions:
