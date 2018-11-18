@@ -1,24 +1,22 @@
 # TC4nano
-The configuration specified in this document is for the TC4nano which uses
-one SSR for heater control (no fan control) and logs BT only.
+The TC4nano is a four channel thermocouple shield for use with the Arduino Nano (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
 
 ### CONTENTS:
 #### Configuring Artiasn
 #### Updating TC4 Firmware
 #### Troubleshooting
 
-The TC4nano is configured for the Artisan roaster-scope software. The latest 
-version can be found at:	
+The TC4nano is pre-configured for the Artisan roaster-scope software using the aArtisanQ_PID_6_2_3 by Jim Gallt and Brad
+Collins provided under BSD Liscense.
+
+The latest version of the TC4 firmware can be found at:
+https://github.com/greencardigan/TC4-shield
+
+The latest version of Artisan can be found at:	
 https://github.com/artisan-roaster-scope
 
 Artisan installation instructions:
 https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.md
-
-The TC4nano comes preloaded with aArtisanQ_PID_6_2_3 by Jim Gallt and Brad
-Collins and is provided under BSD Liscense. 
-
-The provided firmware has been tested with Artisan versions up to 1.5. 
-If you wish to update the firmware the instructions are provided below.
 
 
 
