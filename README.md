@@ -1,5 +1,5 @@
 # TC4nano
-The TC4nano is a four channel thermocouple shield for use with the Arduino Nano to control a resistive heating element for home coffee roasting (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
+The TC4nano an Arduino Nano shield for termperature logging and PID control of a resistive heating element for use in home coffee roasting (based off of the TC4 Arduino Uno shield design copyright 2014 MLG Properties LLC and bvwelch.com CC-BY). The TC4nano includes one onboard SSR for heater control via slow PWM. Forced air is recommended for cooling the SSR in configurations drawing 10A or above.
 
 ### CONTENTS:
 #### Configuring Artiasn
