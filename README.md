@@ -125,7 +125,7 @@ Set Value:
 
 Adjust the circles to the desired locations, add or delete points as necessary.
 
-When profile is coplete go to Tools > Designer (uncheck) and proile will be
+When profile is complete go to Tools > Designer (uncheck) and proile will be
 loaded onto the graph.
 
 Hit the RESET button, then save the profile to your Profiles directory.
