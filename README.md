@@ -185,34 +185,22 @@ Copy and paste these commands into terminal one by one
 
 First check to see if homebrew is installed
 
-
-_______________________________________________________________________________
-brew --version
-_______________________________________________________________________________
+    brew --version
 
 If it is not installed (ie you get an output that is something other than
 the version of homebrew) run the following commmand
 
-
-_______________________________________________________________________________
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-_______________________________________________________________________________
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Then run the following two commands to install the CH34x drivers needed
 to use the generic arduino nano
 
-_______________________________________________________________________________
-brew tap mengbo/ch340g-ch34g-ch34x-mac-os-x-driver https://github.com/mengbo/ch340g-ch34g-ch34x-mac-os-x-driver
-_______________________________________________________________________________
-
-_______________________________________________________________________________
-brew cask install wch-ch34x-usb-serial-driver
-_______________________________________________________________________________
+    brew tap mengbo/ch340g-ch34g-ch34x-mac-os-x-driver https://github.com/mengbo/ch340g-ch34g-ch34x-mac-os-x-driver
+    brew cask install wch-ch34x-usb-serial-driver
 
 Now restart your computer, and see if Artisan recognizes the arduino.
 Alternately, you can enter the following in the terminal and look for an output
 that is not an error.
 
-_______________________________________________________________________________
-ls /dev/cu.usb* /dev/cu.wch*
-_______________________________________________________________________________
+    ls /dev/cu.usb* /dev/cu.wch*
+
